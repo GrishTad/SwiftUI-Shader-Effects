@@ -1,4 +1,5 @@
-# Metal Shader Effects for SwiftUI
+![Project Banner Image](Assets/header.png)
+# SwiftUI Shader Effects
 
 Welcome to the Metal Shader Effects for SwiftUI project! This is an open-source project where I create various Metal Shader effects specifically designed for SwiftUI applications. 
 
@@ -12,10 +13,6 @@ I work on this project in my free time, adding new effects whenever I find the t
 <div align="center">
   <video src="https://github.com/GrishTad/ShaderEffects/assets/29206404/04f23715-cdb6-4cb5-ae85-0fe2fe7561f5" width="100%"  autoplay/>
 </div>
-
-## Contributions
-
-Feel free to contribute to this project! Whether it's improving existing effects, adding new ones, or helping with documentation, any help is appreciated.
 
 ## Buy Me a Coffee
 
