@@ -16,7 +16,7 @@ struct ContentView: View {
                 Image(systemName: "infinity.circle")
                     .font(.system(size: 300))
                     .glowing(color: .white, blurRadius: 8, glowOpacity: 1)
-                    .colorEffect(ShaderLibrary.customFragmentShader(.float(startDate.timeIntervalSinceNow)))
+                    .colorEffect(ShaderLibrary.ColorMixEffect(.float(startDate.timeIntervalSinceNow)))
               
  
                 Text("Grish\nTad")
@@ -24,7 +24,7 @@ struct ContentView: View {
                     .font(.system(size: 150))
                     .fontWeight(.bold)
                     .foregroundColor(.white)
-                    .colorEffect(ShaderLibrary.customFragmentShader(.float(startDate.timeIntervalSinceNow)))
+                    .colorEffect(ShaderLibrary.ColorMixEffect(.float(startDate.timeIntervalSinceNow)))
             }
         }
     }

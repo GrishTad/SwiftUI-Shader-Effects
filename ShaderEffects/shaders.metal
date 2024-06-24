@@ -13,7 +13,7 @@ using namespace metal;
 
 
 [[stitchable]]
-half4 customFragmentShader(float2 position, half4 currentColor, float iTime) {
+half4 ColorMixEffect(float2 position, half4 currentColor, float iTime) {
     // Position needs to be normalized as per your previous approach
     float2 iResolution = float2(400.0, 400.0);
 
