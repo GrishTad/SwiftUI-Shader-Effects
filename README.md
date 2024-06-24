@@ -10,7 +10,7 @@ I work on this project in my free time, adding new effects whenever I find the t
 
 - Color Mix Effect
 <div align="center">
-  <video src="https://github.com/GrishTad/ShaderEffects/assets/29206404/04f23715-cdb6-4cb5-ae85-0fe2fe7561f5" width="100%" />
+  <video src="https://github.com/GrishTad/ShaderEffects/assets/29206404/04f23715-cdb6-4cb5-ae85-0fe2fe7561f5" width="100%"  autoplay/>
 </div>
 
 ## Contributions
