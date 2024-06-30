@@ -84,7 +84,7 @@ float2 leminiscate(float t) {
 }
 
 float map(float2 pos, float iTime) {
-    float t = fract(-SPEED * iTime + 0.1);
+    float t = fract(SPEED * iTime + 0.1);
     float dl = LENGTH / POINTS;
     float2 p1 = leminiscate(t * M_2_PI);
     float2 p2 = leminiscate((dl + t) * M_2_PI);
