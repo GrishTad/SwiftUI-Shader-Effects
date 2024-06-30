@@ -9,13 +9,24 @@ I work on this project in my free time, adding new effects whenever I find the t
 
 ## Current Effects
 
-| Color Mix Effect View | Infinite Loop Loader | 
-:-------------------------:|:-------------------------:
-![](<div align="center">
-  <video src="https://github.com/GrishTad/ShaderEffects/assets/29206404/04f23715-cdb6-4cb5-ae85-0fe2fe7561f5" width="100%"  autoplay/>
-</div>) | ![](<div align="center">
-  <video src="https://github.com/GrishTad/SwiftUI-Shader-Effects/assets/29206404/47257dff-d162-4d4d-8d88-52d5f7420a57" width="100%"  autoplay/>
-</div>)
+<table>
+  <tr>
+    <th>Color Mix Effect View</th>
+    <th>Infinite Loop Loader</th>
+  </tr>
+  <tr>
+    <td>
+      <div align="center">
+        <video src="https://github.com/GrishTad/ShaderEffects/assets/29206404/04f23715-cdb6-4cb5-ae85-0fe2fe7561f5" width="100%" autoplay muted loop></video>
+      </div>
+    </td>
+    <td>
+      <div align="center">
+        <video src="https://github.com/GrishTad/SwiftUI-Shader-Effects/assets/29206404/47257dff-d162-4d4d-8d88-52d5f7420a57" width="100%" autoplay muted loop></video>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ## Buy Me a Coffee
 
