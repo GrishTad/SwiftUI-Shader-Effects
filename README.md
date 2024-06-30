@@ -17,12 +17,12 @@ I work on this project in my free time, adding new effects whenever I find the t
   <tr>
     <td>
       <div align="center">
-        <video src="https://github.com/GrishTad/ShaderEffects/assets/29206404/04f23715-cdb6-4cb5-ae85-0fe2fe7561f5" width="100%" autoplay muted loop></video>
+        <video src="https://github.com/GrishTad/ShaderEffects/assets/29206404/04f23715-cdb6-4cb5-ae85-0fe2fe7561f5" width="50%" autoplay muted loop></video>
       </div>
     </td>
     <td>
       <div align="center">
-        <video src="https://github.com/GrishTad/SwiftUI-Shader-Effects/assets/29206404/47257dff-d162-4d4d-8d88-52d5f7420a57" width="100%" autoplay muted loop></video>
+        <video src="https://github.com/GrishTad/SwiftUI-Shader-Effects/assets/29206404/3e40d2dd-e2ab-4ed7-8dde-b1303d955947" width="50%" autoplay muted loop></video>
       </div>
     </td>
   </tr>
