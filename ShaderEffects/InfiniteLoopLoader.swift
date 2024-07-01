@@ -14,7 +14,7 @@ struct InfiniteLoopLoader: View {
         GeometryReader { geometry in
            
                 
-                TimelineView(.animation) { context in
+                TimelineView(.animation) { _ in
                     
                     VStack
                     {

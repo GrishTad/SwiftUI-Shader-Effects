@@ -14,7 +14,7 @@ struct ColorMixEffectView: View {
           
             
             
-            TimelineView(.animation) { context in
+            TimelineView(.animation) { _ in
                 
                 Image(systemName: "infinity.circle")
                     .font(.system(size: 300))
