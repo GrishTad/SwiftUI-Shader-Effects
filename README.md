@@ -1,4 +1,5 @@
 ![Project Banner Image](Assets/header.png)
+[![CodeFactor](https://www.codefactor.io/repository/github/grishtad/swiftui-shader-effects/badge/main)](https://www.codefactor.io/repository/github/grishtad/swiftui-shader-effects/overview/main)
 # SwiftUI Shader Effects
 
 Welcome to the Metal Shader Effects for SwiftUI project! This is an open-source project where I create various Metal Shader effects specifically designed for SwiftUI applications. 
