@@ -6,6 +6,7 @@
     <img src="https://img.shields.io/badge/platform-iOS_17.0+-yellow.svg" alt="iOS17.0+" />
         <img src="https://img.shields.io/badge/platform-iPadOS_17.0+-yellow.svg" alt="iOS17.0+" />
     <img src="https://img.shields.io/badge/language-Swift_5.9-orange.svg" alt="Swift 5.9" />
+        <img src="https://img.shields.io/badge/language-MSL-orange.svg" alt="MSL" />
   
     <img src="https://img.shields.io/github/license/GrishTad/SwiftUI-Shader-Effects" alt="MIT License" />
 
