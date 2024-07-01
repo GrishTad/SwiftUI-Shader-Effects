@@ -1,5 +1,17 @@
 ![Project Banner Image](Assets/header.png)
-[![CodeFactor](https://www.codefactor.io/repository/github/grishtad/swiftui-shader-effects/badge/main)](https://www.codefactor.io/repository/github/grishtad/swiftui-shader-effects/overview/main)
+
+
+<p align="center">
+    <img src="https://www.codefactor.io/repository/github/grishtad/swiftui-shader-effects/badge/main" alt="CodeFactor" />
+    <img src="https://img.shields.io/badge/platform-iOS_17.0+-yellow.svg" alt="iOS17.0+" />
+        <img src="https://img.shields.io/badge/platform-iPadOS_17.0+-yellow.svg" alt="iOS17.0+" />
+    <img src="https://img.shields.io/badge/language-Swift_5.9-orange.svg" alt="Swift 5.9" />
+  
+    <img src="https://img.shields.io/github/license/GrishTad/SwiftUI-Shader-Effects" alt="MIT License" />
+
+</p>
+
+
 # SwiftUI Shader Effects
 
 Welcome to the Metal Shader Effects for SwiftUI project! This is an open-source project where I create various Metal Shader effects specifically designed for SwiftUI applications. 
