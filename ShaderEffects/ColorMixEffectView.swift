@@ -12,8 +12,6 @@ struct ColorMixEffectView: View {
     var body: some View {
         VStack{
           
-            
-            
             TimelineView(.animation) { _ in
                 
                 Image(systemName: "infinity.circle")

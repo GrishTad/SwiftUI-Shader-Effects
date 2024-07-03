@@ -19,8 +19,7 @@ struct InfiniteLoopLoader: View {
                     VStack
                     {
                         color
-                        
-                        
+
                     }
                     .colorEffect(ShaderLibrary.InfiniteLoaderEffect(
                         .float2(geometry.size),

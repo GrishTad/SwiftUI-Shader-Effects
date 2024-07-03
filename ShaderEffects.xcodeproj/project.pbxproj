@@ -11,10 +11,11 @@
 		7501B91C2C21DC530026AF91 /* ColorMixEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7501B91B2C21DC530026AF91 /* ColorMixEffectView.swift */; };
 		7501B91E2C21DC560026AF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7501B91D2C21DC560026AF91 /* Assets.xcassets */; };
 		7501B9212C21DC560026AF91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7501B9202C21DC560026AF91 /* Preview Assets.xcassets */; };
-		7501B9282C21DC8E0026AF91 /* shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 7501B9272C21DC8E0026AF91 /* shaders.metal */; };
+		7501B9282C21DC8E0026AF91 /* InfiniteLoaderEffect.metal in Sources */ = {isa = PBXBuildFile; fileRef = 7501B9272C21DC8E0026AF91 /* InfiniteLoaderEffect.metal */; };
 		759729372C31725F0095C363 /* InfiniteLoopLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759729362C31725F0095C363 /* InfiniteLoopLoader.swift */; };
 		759729392C317DD00095C363 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759729382C317DD00095C363 /* ContentView.swift */; };
 		75B671DA2C29EE570045F181 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B671D92C29EE570045F181 /* Utils.swift */; };
+		75F1C4822C35C8A700D8D4CE /* ColorMixEffect.metal in Sources */ = {isa = PBXBuildFile; fileRef = 75F1C4812C35C8A700D8D4CE /* ColorMixEffect.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,10 +24,11 @@
 		7501B91B2C21DC530026AF91 /* ColorMixEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMixEffectView.swift; sourceTree = "<group>"; };
 		7501B91D2C21DC560026AF91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7501B9202C21DC560026AF91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7501B9272C21DC8E0026AF91 /* shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = shaders.metal; sourceTree = "<group>"; };
+		7501B9272C21DC8E0026AF91 /* InfiniteLoaderEffect.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = InfiniteLoaderEffect.metal; sourceTree = "<group>"; };
 		759729362C31725F0095C363 /* InfiniteLoopLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteLoopLoader.swift; sourceTree = "<group>"; };
 		759729382C317DD00095C363 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75B671D92C29EE570045F181 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		75F1C4812C35C8A700D8D4CE /* ColorMixEffect.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ColorMixEffect.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,7 @@
 				75B671D92C29EE570045F181 /* Utils.swift */,
 				7501B91D2C21DC560026AF91 /* Assets.xcassets */,
 				7501B91F2C21DC560026AF91 /* Preview Content */,
-				7501B9272C21DC8E0026AF91 /* shaders.metal */,
+				75F1C4832C35CE8D00D8D4CE /* Shaders */,
 			);
 			path = ShaderEffects;
 			sourceTree = "<group>";
@@ -77,6 +79,15 @@
 				7501B9202C21DC560026AF91 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75F1C4832C35CE8D00D8D4CE /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				7501B9272C21DC8E0026AF91 /* InfiniteLoaderEffect.metal */,
+				75F1C4812C35C8A700D8D4CE /* ColorMixEffect.metal */,
+			);
+			path = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +164,8 @@
 				759729372C31725F0095C363 /* InfiniteLoopLoader.swift in Sources */,
 				759729392C317DD00095C363 /* ContentView.swift in Sources */,
 				7501B91A2C21DC530026AF91 /* ShaderEffectsApp.swift in Sources */,
-				7501B9282C21DC8E0026AF91 /* shaders.metal in Sources */,
+				75F1C4822C35C8A700D8D4CE /* ColorMixEffect.metal in Sources */,
+				7501B9282C21DC8E0026AF91 /* InfiniteLoaderEffect.metal in Sources */,
 				75B671DA2C29EE570045F181 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

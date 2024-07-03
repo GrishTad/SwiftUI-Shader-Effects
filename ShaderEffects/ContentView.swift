@@ -9,16 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
-            List {
-                NavigationLink(destination: InfiniteLoopLoader(color:Color.blue)) {
-                    Text("Infinite Loop Loader")
+        VStack(spacing: 0) {
+            NavigationView {
+                List {
+                    NavigationLink(destination: InfiniteLoopLoader(color: Color.blue)) {
+                        Text("Infinite Loop Loader")
+                    }
+                    NavigationLink(destination: ColorMixEffectView()) {
+                        Text("Color Mix Effect View")
+                    }
                 }
-                NavigationLink(destination: ColorMixEffectView()) {
-                    Text("Color Mix Effect View")
-                }
+                .navigationBarTitle("Effects", displayMode: .inline)
+                
             }
-            .navigationTitle("Effects")
+            .navigationViewStyle(StackNavigationViewStyle())
+            
         }
     }
 }
