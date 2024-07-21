@@ -15,6 +15,9 @@ struct ContentView: View {
                     NavigationLink(destination: InfiniteLoopLoader(color: Color.blue)) {
                         Text("Infinite Loop Loader")
                     }
+                    NavigationLink(destination: RectangleLoopLoader(color: Color.blue)) {
+                        Text("Rectangle Loop Loader")
+                    }
                     NavigationLink(destination: ColorMixEffectView()) {
                         Text("Color Mix Effect View")
                     }

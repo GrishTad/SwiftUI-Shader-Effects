@@ -11,7 +11,8 @@ import SwiftUI
 struct ShaderEffectsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //            ContentView()
+            RectangleLoopLoader(color: Color.blue) 
         }
     }
 }
