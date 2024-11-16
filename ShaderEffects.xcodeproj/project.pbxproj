@@ -12,6 +12,8 @@
 		7501B91E2C21DC560026AF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7501B91D2C21DC560026AF91 /* Assets.xcassets */; };
 		7501B9212C21DC560026AF91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7501B9202C21DC560026AF91 /* Preview Assets.xcassets */; };
 		7501B9282C21DC8E0026AF91 /* InfiniteLoaderEffect.metal in Sources */ = {isa = PBXBuildFile; fileRef = 7501B9272C21DC8E0026AF91 /* InfiniteLoaderEffect.metal */; };
+		7571701B2CE8A574008839D7 /* CircleLoaderEffect.metal in Sources */ = {isa = PBXBuildFile; fileRef = 7571701A2CE8A574008839D7 /* CircleLoaderEffect.metal */; };
+		7571701D2CE8A627008839D7 /* CircleLoaderEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7571701C2CE8A627008839D7 /* CircleLoaderEffectView.swift */; };
 		759729372C31725F0095C363 /* InfiniteLoopLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759729362C31725F0095C363 /* InfiniteLoopLoader.swift */; };
 		759729392C317DD00095C363 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759729382C317DD00095C363 /* ContentView.swift */; };
 		75B671DA2C29EE570045F181 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B671D92C29EE570045F181 /* Utils.swift */; };
@@ -25,6 +27,8 @@
 		7501B91D2C21DC560026AF91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7501B9202C21DC560026AF91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7501B9272C21DC8E0026AF91 /* InfiniteLoaderEffect.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = InfiniteLoaderEffect.metal; sourceTree = "<group>"; };
+		7571701A2CE8A574008839D7 /* CircleLoaderEffect.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CircleLoaderEffect.metal; sourceTree = "<group>"; };
+		7571701C2CE8A627008839D7 /* CircleLoaderEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoaderEffectView.swift; sourceTree = "<group>"; };
 		759729362C31725F0095C363 /* InfiniteLoopLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteLoopLoader.swift; sourceTree = "<group>"; };
 		759729382C317DD00095C363 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75B671D92C29EE570045F181 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 				759729382C317DD00095C363 /* ContentView.swift */,
 				759729362C31725F0095C363 /* InfiniteLoopLoader.swift */,
 				7501B91B2C21DC530026AF91 /* ColorMixEffectView.swift */,
+				7571701C2CE8A627008839D7 /* CircleLoaderEffectView.swift */,
 				75B671D92C29EE570045F181 /* Utils.swift */,
 				7501B91D2C21DC560026AF91 /* Assets.xcassets */,
 				7501B91F2C21DC560026AF91 /* Preview Content */,
@@ -86,6 +91,7 @@
 			children = (
 				7501B9272C21DC8E0026AF91 /* InfiniteLoaderEffect.metal */,
 				75F1C4812C35C8A700D8D4CE /* ColorMixEffect.metal */,
+				7571701A2CE8A574008839D7 /* CircleLoaderEffect.metal */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -165,8 +171,10 @@
 				759729392C317DD00095C363 /* ContentView.swift in Sources */,
 				7501B91A2C21DC530026AF91 /* ShaderEffectsApp.swift in Sources */,
 				75F1C4822C35C8A700D8D4CE /* ColorMixEffect.metal in Sources */,
+				7571701D2CE8A627008839D7 /* CircleLoaderEffectView.swift in Sources */,
 				7501B9282C21DC8E0026AF91 /* InfiniteLoaderEffect.metal in Sources */,
 				75B671DA2C29EE570045F181 /* Utils.swift in Sources */,
+				7571701B2CE8A574008839D7 /* CircleLoaderEffect.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

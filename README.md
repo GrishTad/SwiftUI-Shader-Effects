@@ -40,6 +40,11 @@ I work on this project in my free time, adding new effects whenever I find the t
         <video src="https://github.com/GrishTad/SwiftUI-Shader-Effects/assets/29206404/1e199105-f333-4eb9-b307-52e9e24ee41d" width="50%" autoplay muted loop></video>
       </div>
     </td>
+    <td>
+      <div align="center">
+        <video src="https://github.com/user-attachments/assets/0dfd76c9-0555-470c-969f-db2efe903b37" width="50%" autoplay muted loop></video>
+      </div>
+    </td>
   </tr>
 </table>
 

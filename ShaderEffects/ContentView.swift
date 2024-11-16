@@ -17,6 +17,9 @@ struct ContentView: View {
                     }
                     NavigationLink(destination: ColorMixEffectView()) {
                         Text("Color Mix Effect View")
+                    } 
+                    NavigationLink(destination: CircleLoaderEffectView(color: Color.white)) {
+                        Text("Circle Loader Effect View")
                     }
                 }
                 .navigationBarTitle("Effects", displayMode: .inline)
