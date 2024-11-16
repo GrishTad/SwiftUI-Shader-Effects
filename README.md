@@ -32,17 +32,17 @@ I work on this project in my free time, adding new effects whenever I find the t
   <tr>
     <td>
       <div align="center">
-        <video src="https://github.com/GrishTad/ShaderEffects/assets/29206404/04f23715-cdb6-4cb5-ae85-0fe2fe7561f5" width="50%" autoplay muted loop></video>
+        <video src="https://github.com/GrishTad/ShaderEffects/assets/29206404/04f23715-cdb6-4cb5-ae85-0fe2fe7561f5" width="40%" autoplay muted loop></video>
       </div>
     </td>
     <td>
       <div align="center">
-        <video src="https://github.com/GrishTad/SwiftUI-Shader-Effects/assets/29206404/1e199105-f333-4eb9-b307-52e9e24ee41d" width="50%" autoplay muted loop></video>
+        <video src="https://github.com/GrishTad/SwiftUI-Shader-Effects/assets/29206404/1e199105-f333-4eb9-b307-52e9e24ee41d" width="40%" autoplay muted loop></video>
       </div>
     </td>
     <td>
       <div align="center">
-        <video src="https://github.com/user-attachments/assets/0dfd76c9-0555-470c-969f-db2efe903b37" width="50%" autoplay muted loop></video>
+        <video src="https://github.com/user-attachments/assets/0dfd76c9-0555-470c-969f-db2efe903b37" width="40%" autoplay muted loop></video>
       </div>
     </td>
   </tr>
